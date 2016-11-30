@@ -24,7 +24,7 @@ namespace GameSpace.Objects
         {
           return "Player One Wins!";
         }
-        return "Its a tie!";
+        return "It's a Tie!";
       }
   }
 }

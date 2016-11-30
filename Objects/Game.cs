@@ -20,6 +20,10 @@ namespace GameSpace.Objects
       {
         return "Player Two Wins!";
         }
+        else if (this.PlayerOne == "rock" && this.PlayerTwo == "scissors")
+        {
+          return "Player Two Wins!";
+        }
         return "Its a tie!";
       }
   }

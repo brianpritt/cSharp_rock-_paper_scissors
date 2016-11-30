@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="/Content/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="/Content/css/styles.css" rel="stylesheet" type="text/css">
-    <title>TEMPLATE</title>
+    <link href="../Content/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../Content/css/styles.css" rel="stylesheet" type="text/css">
+    <title>Rock Paper Scissors</title>
   </head>
   <body>
     <div class="jumbotron">
       <h1>Rock Paper Scissors</h1>
     </div>
     <div class="container">
-      <h2>Play Rock Paper Scissors with a friend</h2><br>
+      <h2>Play rock paper scissors with a friend</h2><br>
 
           <div class="row">
             <form action="/new-game" class="submit-button" method="post">
@@ -26,7 +26,9 @@
                 <label><input type="radio" name="playerTwo" value="paper"><span><img src="Content/css/paper2.jpg"></span></label>
                 <label><input type="radio" name="playerTwo" value="scissors"><span><img src="Content/css/scissors2.jpg"></span></label>
             </div>
-            <button type="submit">Play</button>
+            <div class="row">
+              <button type="submit" class="btn btn-info">Play</button>
+            </div>
             </form>
           </div>
 

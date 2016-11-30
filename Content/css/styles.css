@@ -1,3 +1,16 @@
-.submit_button {
+.button {
   margin: 0px auto;
+}
+h1, h2, h3,h5 {
+  text-align: center;
+}
+
+img {
+  height: 250px;
+}
+img:hover{
+  border: solid 1px lightblue;
+}
+input{
+  visibility: hidden;
 }

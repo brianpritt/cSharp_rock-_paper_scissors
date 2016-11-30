@@ -31,5 +31,17 @@ namespace  GameSpace
       string winner = "Player One Wins!";
       Assert.Equal(true, newGame.WhoWins() == winner);
     }
+    [Fact]
+    public void WhoWins_ScissorsBeatsPaper_true()
+    {
+      //Arrange
+      string PlayerOne = "paper";
+      string PlayerTwo = "scissors";
+      Game newGame = new Game(PlayerOne, PlayerTwo);
+      //Act
+      //Assert
+      string winner = "Player Two Wins!";
+      Assert.Equal(true, newGame.WhoWins() == winner);
+    }
   }
 }

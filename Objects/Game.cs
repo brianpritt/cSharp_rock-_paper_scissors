@@ -16,13 +16,13 @@ namespace GameSpace.Objects
     }
     public string WhoWins()
     {
-      if (this.PlayerOne == "rock" && this.PlayerTwo == "paper")
+      if ((this.PlayerOne == "rock" && this.PlayerTwo == "paper") || (this.PlayerOne == "scissors" && this.PlayerTwo == "rock") || (this.PlayerOne == "paper" && this.PlayerTwo == "scissors"))
       {
         return "Player Two Wins!";
         }
-        else if (this.PlayerOne == "rock" && this.PlayerTwo == "scissors")
+        else if ((this.PlayerOne == "rock" && this.PlayerTwo == "scissors") || (this.PlayerOne == "paper" && this.PlayerTwo == "rock") || (this.PlayerOne == "scissors" && this.PlayerTwo == "paper"))
         {
-          return "Player Two Wins!";
+          return "Player One Wins!";
         }
         return "Its a tie!";
       }
